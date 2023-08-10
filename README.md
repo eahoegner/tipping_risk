@@ -12,9 +12,11 @@ _______________
 *  03_monte_carlo_ensemble.py:		Python code to produce the ensemble members to propagate tipping related uncertainties.
 *  04_MAIN_script.py:				      Python code to calculate tipping risks.
 *  05_overshoots_evaluation.R:		R code to produce tipping risk .csv from MAIN_script output.
-*  core                           model scripts
-*  earth_sys                      model scripts
-  
+*  core                           pycascades model scripts
+*  earth_sys                      pycascades model scripts
+pycascades is developed at the Potsdam Institute for Climate Impact Research, Potsdam, Germany.
+Description paper: N. Wunderling, J. Krönke, V. Wohlfarth, J. Kohler, J. Heitzig, A. Staal, S. Willner, R. Winkelmann, J.F. Donges, [[Modelling nonlinear dynamics of interacting tipping elements on complex networks: the PyCascades package]](https://link.springer.com/article/10.1140/epjs/s11734-021-00155-4), The European Physical Journal Special Topics (2021).
+
 ## DATA
 ### INPUT data:
 *  kyoto_emissions.csv:				    PROVIDEv1.2 emissions*
@@ -42,8 +44,6 @@ python:
 * PyPDF2
 * netCDF4
 * networkx
-* pycascades available at: [[https://github.com/pik-copan/pycascades/tree/master]](https://github.com/pik-copan/pycascades/tree/master)
-pycascades is developed at the Potsdam Institute for Climate Impact Research, Potsdam, Germany.
 
 R:
 * dplyr
@@ -53,7 +53,7 @@ R:
 ## Description
 _______________
 
-The executable scripts need to be run in the indicated order. 'core' and 'earth_sys' need to be saved in the same folder as '04_MAIN_script.py'
+The executable scripts need to be run in the indicated order. For execution, ´core´ and ´earth_sys´ need to be saved in the same folder as ´04_MAIN_script.py´.
 This code was implemented in Python 3.9. and R 4.2.1. For each script, it is advised to first check dependencies. 
 
 _________________________
