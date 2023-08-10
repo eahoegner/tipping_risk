@@ -12,7 +12,9 @@ _______________
 *  03_monte_carlo_ensemble.py:		Python code to produce the ensemble members to propagate tipping related uncertainties.
 *  04_MAIN_script.py:				      Python code to calculate tipping risks.
 *  05_overshoots_evaluation.R:		R code to produce tipping risk .csv from MAIN_script output.
-
+*  core                           model scripts
+*  earth_sys                      model scripts
+  
 ## DATA
 ### INPUT data:
 *  kyoto_emissions.csv:				    PROVIDEv1.2 emissions*
@@ -51,7 +53,7 @@ R:
 ## Description
 _______________
 
-The executable scripts need to be run in the indicated order.
+The executable scripts need to be run in the indicated order. 'core' and 'earth_sys' need to be saved in the same folder as '04_MAIN_script.py'
 This code was implemented in Python 3.9. and R 4.2.1. For each script, it is advised to first check dependencies. 
 
 _________________________
