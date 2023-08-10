@@ -52,7 +52,7 @@ R:
 ## Description
 _______________
 
-The executable scripts need to be run in the indicated order. For execution, ´core´ and ´earth_sys´ need to be saved in the same folder as ´04_MAIN_script.py´.
+The executable scripts need to be run in the indicated order. For execution, `core` and `earth_sys` need to be saved in the same folder as `04_MAIN_script.py`.
 This code was implemented in Python 3.9. and R 4.2.1. For each script, it is advised to first check dependencies. 
 
 _________________________
