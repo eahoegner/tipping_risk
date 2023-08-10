@@ -14,14 +14,18 @@ _______________
 *  `05_overshoots_evaluation.R`		R code to produce tipping risk .csv from MAIN_script output.
 *  `core`                         pycascades model scripts
 *  `earth_sys`                    pycascades model scripts
+
 pycascades is developed at the Potsdam Institute for Climate Impact Research, Potsdam, Germany.
 Description paper: N. Wunderling, J. Krönke, V. Wohlfarth, J. Kohler, J. Heitzig, A. Staal, S. Willner, R. Winkelmann, J.F. Donges, [Modelling nonlinear dynamics of interacting tipping elements on complex networks: the PyCascades package](https://link.springer.com/article/10.1140/epjs/s11734-021-00155-4), The European Physical Journal Special Topics (2021).
+
 
 ## DATA
 ### INPUT data:
 *  kyoto_emissions.csv:				    PROVIDEv1.2 emissions
 *  tier1_temperature_summary.csv:	PROVIDEv1.2 temperature trajectories
+
 from [Scenario emissions and temperature data for PROVIDE project](https://zenodo.org/record/7194542) (Robin Lamboll, Joeri Rogelj, Carl-Friedrich Schleussner, 2022)
+
 
 ## Required modules
 _______________
@@ -56,4 +60,4 @@ The executable scripts need to be run in the indicated order. For execution, `co
 This code was implemented in Python 3.9. and R 4.2.1. For each script, it is advised to first check dependencies. 
 
 _________________________
-E.A. Högner & T. Möller, 09.08.2023
+A.E. Högner & T. Möller, 09.08.2023
