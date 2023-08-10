@@ -15,7 +15,7 @@ _______________
 *  `core`                         pycascades model scripts
 *  `earth_sys`                    pycascades model scripts
 
-pycascades is developed at the Potsdam Institute for Climate Impact Research, Potsdam, Germany.
+pycascades is developed at the Potsdam Institute for Climate Impact Research, Potsdam, Germany.<br>
 Description paper: N. Wunderling, J. Krönke, V. Wohlfarth, J. Kohler, J. Heitzig, A. Staal, S. Willner, R. Winkelmann, J.F. Donges, [Modelling nonlinear dynamics of interacting tipping elements on complex networks: the PyCascades package](https://link.springer.com/article/10.1140/epjs/s11734-021-00155-4), The European Physical Journal Special Topics (2021).
 
 
