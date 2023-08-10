@@ -19,9 +19,9 @@ Description paper: N. Wunderling, J. Krönke, V. Wohlfarth, J. Kohler, J. Heitzi
 
 ## DATA
 ### INPUT data:
-*  kyoto_emissions.csv:				    PROVIDEv1.2 emissions*
-*  tier1_temperature_summary.csv:	PROVIDEv1.2 temperature trajectories*
-from ["Scenario emissions and temperature data for PROVIDE project"](https://zenodo.org/record/7194542) (Robin Lamboll, Joeri Rogelj, Carl-Friedrich Schleussner, 2022)
+*  kyoto_emissions.csv:				    PROVIDEv1.2 emissions
+*  tier1_temperature_summary.csv:	PROVIDEv1.2 temperature trajectories
+from [Scenario emissions and temperature data for PROVIDE project](https://zenodo.org/record/7194542) (Robin Lamboll, Joeri Rogelj, Carl-Friedrich Schleussner, 2022)
 
 ## Required modules
 _______________
