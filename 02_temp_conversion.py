@@ -11,7 +11,7 @@ path = '.' #insert path
 
 os.chdir(path)
 data = pd.read_csv('provide_extension_1850-51849_non-runaway.csv', index_col=[0])
-data.drop(['Unnamed: 0.1'], axis=1, inplace=True)
+#data.drop(['Unnamed: 0.1'], axis=1, inplace=True)
 data
 
 
@@ -50,6 +50,7 @@ Tconv = selection[["scenario", "quantile", "51849"]]
 Tconv = Tconv.rename({'51849': 'Tconv'}, axis=1)
 Tconv.to_csv("Tconv.csv")
 
+os.mkdir("files")
 
 # save
 save_scenario = {}

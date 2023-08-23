@@ -54,5 +54,5 @@ provide_extension_filtered.index = np.arange(0,filtered_rows,1)
 provide_extension_filtered.to_csv(f"provide_extension_{provide_firstyear}-{extension_lastyear}_non-runaway.csv")
 
 # read csv files (to avoid re-calculating extension)
-provide_extension = pd.read_csv("provide_extension_1850_51849.csv")
-provide_extension_filtered = pd.read_csv("provide_extension_1850_51849_non-runaway.csv")
+provide_extension = pd.read_csv("provide_extension_1850-51849.csv")
+provide_extension_filtered = pd.read_csv("provide_extension_1850-51849_non-runaway.csv")

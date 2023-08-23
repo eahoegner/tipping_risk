@@ -27,7 +27,7 @@ from earth_sys.timing_no_enso import timing
 from earth_sys.functions_earth_system_no_enso import global_functions
 from earth_sys.earth_no_enso import earth_system
 
-path = "." # set path
+path = "./" # set path
 
 #for cluster computations
 os.chdir(path)
@@ -38,29 +38,33 @@ os.chdir(path)
 time_scale = True            # time scale of tipping is incorporated
 plus_minus_include = False    # from Kriegler, 2009: Unclear links; if False all unclear links are set to off state and only network "0-0" is computed
 ######################################################################
-duration = 50000 #actual real simulation years
-#duration = 450 #for medium-term run
+#duration = 50000 #actual real simulation years
+duration = 450 #for medium-term run
 
 
 #Names to create the respective directories
 namefile = "no"
-long_save_name = "resultsLT" #results450 for medium-term
+#long_save_name = "resultsLT" # for long-term
+long_save_name = "results450" # for medium-term
 
 #######################GLOBAL VARIABLES##############################
 #drive coupling strength
 coupling_strength = np.linspace(0.0, 1.0, 11, endpoint=True)
 #temperature input (forced with generated overshoot inputs)
-GMT_files = np.sort(glob.glob("temp_input/files/*.txt"))
+GMT_files = np.sort(glob.glob("files/*.txt"))
 
 
 ########################Declaration of variables from passed values#######################
 #Must sort out first and second value since this is the actual file and the number of nodes used
-sys_var = np.array(sys.argv[2:], dtype=str) #low sample -3, intermediate sample: -2, high sample: -1
+
+## !!! uncomment for actual cluster run:
+#sys_var = np.array(sys.argv[2:], dtype=str) #low sample -3, intermediate sample: -2, high sample: -1
 
 
 #TEST SYTEM
-#print("USING TEST SYSTEM")
-#sys_var = np.array([1.6, 4.75, 3.25, 4.0, 4.0, 0.2, 1.0, 1.0, 0.2, 0.3, 0.5, 0.15, 1.0, 0.2, 0.15, 1.0, 0.4, 4000, 150, 4000, 50, 100, 2400])
+## !!! comment out for actual cluster run:
+print("USING TEST SYSTEM")
+sys_var = np.array([1.6, 4.75, 3.25, 4.0, 4.0, 0.2, 1.0, 1.0, 0.2, 0.3, 0.5, 0.15, 1.0, 0.2, 0.15, 1.0, 0.4, 4000, 150, 4000, 50, 100, 2400])
 #####################################################################
 
 

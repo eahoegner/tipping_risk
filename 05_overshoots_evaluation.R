@@ -8,7 +8,7 @@ require(tidyverse)
   names = c("simulation_length", "GIS_final_state", "THC_final_state", "WAIS_final_state", "AMAZ_final_state", "number_of_tippings", "GIS_tipped", "THC_tipped", "WAIS_tipped", "AMAZ_tipped")
 
   
-  setwd(" ") # insert path
+  setwd("/no_feedbacks/") # insert path to result files
 
   list = list.files(recursive=T, pattern="0.txt")
   
@@ -57,6 +57,8 @@ filename_data = ( path %>% rowwise() %>%
                 )
   )
   
+
+setwd(" ") #insert path to main folder
 
 temp = read.csv('Tconv450.csv')[-1]
 #temp = read.csv('Tconv.csv')[-1] for long-term

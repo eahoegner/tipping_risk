@@ -109,6 +109,7 @@ for i in range(0, len(points)):
                          rand_tau_gis, rand_tau_thc, rand_tau_wais, rand_tau_nino, rand_tau_amaz])
 
 
+	# if needed insert path before /MAIN_script.py
     sh_file.append(["python /MAIN_script.py $SLURM_NTASKS {} {} {} {} {} {} {} {} {} {} {} {} {} {} {} {} {} {} {} {} {} {} {}".format(
                              #insert path
                              rand_gis, rand_thc, rand_wais, rand_amaz, rand_nino,
@@ -117,9 +118,6 @@ for i in range(0, len(points)):
                              rand_thc_to_nino, rand_amaz_to_nino, rand_nino_to_amaz, rand_thc_to_amaz,
                              rand_tau_gis, rand_tau_thc, rand_tau_wais, rand_tau_nino, rand_tau_amaz,
                              str(i).zfill(4) )]) #zfill necessary to construct enough folders for monte carlo runs
-
-array_limits = np.array(array_limits)
-np.savetxt("lhs_no-nino_1000.txt", sh_file, delimiter=" ", fmt="%s")
 
 
 #Create .sh file to run on the cluster
