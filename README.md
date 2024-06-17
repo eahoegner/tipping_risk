@@ -27,6 +27,10 @@ Description paper: N. Wunderling, J. Krönke, V. Wohlfarth, J. Kohler, J. Heitzi
 
 from [Scenario emissions and temperature data for PROVIDE project](https://zenodo.org/record/7194542) (Robin Lamboll, Joeri Rogelj, Carl-Friedrich Schleussner, 2022)
 
+### OUTPUT data:
+*  results450.csv:				Tipping risk results for the medium-term (450 model years, until 2300)
+*  resultsLT.csv:				Tipping risk results for the long-term (50,000 model years)
+
 
 ## Required modules
 _______________
