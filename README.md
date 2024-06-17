@@ -70,4 +70,4 @@ The full model simulation needs to be run on a parallel computing cluster. `03_m
 This code was implemented in Python 3.9. and R 4.2.1. on MAC OS 10.13.6. For each script, it is advised to first check dependencies.
 
 _________________________
-A.E. Högner & T. Möller, 09.08.2023
+A.E. Högner & T. Möller, 17.06.2024
