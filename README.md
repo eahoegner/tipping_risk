@@ -1,7 +1,7 @@
 This repository provides code and data to reproduce results of the article
 ### *Achieving net zero greenhouse gas emissions critical to limit climate tipping risks*
 
-Tessa Möller, Annika (Ernest) Högner, Carl-Friedrich Schleussner, Samuel Bien, Niklas H. Kitzmann, Robin D. Lamboll, Joeri Rogelj, Jonathan F. Donges, Johan Rockström, Nico Wunderling
+Tessa Möller, Annika Ernest Högner, Carl-Friedrich Schleussner, Samuel Bien, Niklas H. Kitzmann, Robin D. Lamboll, Joeri Rogelj, Jonathan F. Donges, Johan Rockström, Nico Wunderling
 
 ## Files
 _______________
