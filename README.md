@@ -1,6 +1,6 @@
 This repository provides code and data to reproduce results of the article
 ### [*Achieving net zero greenhouse gas emissions critical to limit climate tipping risks*](https://www.nature.com/articles/s41467-024-49863-0)
-Nature Communications 15, 6192 (2024)
+Nature Communications *15*, 6192 (2024)
 
 Tessa Möller, Annika Ernest Högner, Carl-Friedrich Schleussner, Samuel Bien, Niklas H. Kitzmann, Robin D. Lamboll, Joeri Rogelj, Jonathan F. Donges, Johan Rockström, Nico Wunderling
 
